@@ -1,6 +1,6 @@
 import "./category-item.component.scss";
 
-const CategoryItem = ({ id, title, imageUrl }) => {
+const CategoryItem = ({ id, title, imageUrl }) => (
   <div key={id} className="category-container">
     <div
       className="background-image"
@@ -10,7 +10,7 @@ const CategoryItem = ({ id, title, imageUrl }) => {
       <h2>{title}</h2>
       <p>Shop Now</p>
     </div>
-  </div>;
-};
+  </div>
+);
 
 export default CategoryItem;
